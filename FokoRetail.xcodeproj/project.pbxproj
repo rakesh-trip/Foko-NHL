@@ -78,7 +78,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0AFA9AF22407785A00D50646 /* FokoRetail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FokoRetail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AFA9AF22407785A00D50646 /* Foko-NHL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foko-NHL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AFA9AF52407785A00D50646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AFA9AF72407785A00D50646 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0AFA9AF92407785A00D50646 /* PlayerDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailsViewController.swift; sourceTree = "<group>"; };
@@ -162,7 +162,7 @@
 		0AFA9AF32407785A00D50646 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0AFA9AF22407785A00D50646 /* FokoRetail.app */,
+				0AFA9AF22407785A00D50646 /* Foko-NHL.app */,
 				0AFA9B082407785C00D50646 /* FokoRetailTests.xctest */,
 				0AFA9B132407785C00D50646 /* FokoRetailUITests.xctest */,
 			);
@@ -337,7 +337,7 @@
 			);
 			name = FokoRetail;
 			productName = FokoRetail;
-			productReference = 0AFA9AF22407785A00D50646 /* FokoRetail.app */;
+			productReference = 0AFA9AF22407785A00D50646 /* Foko-NHL.app */;
 			productType = "com.apple.product-type.application";
 		};
 		0AFA9B072407785C00D50646 /* FokoRetailTests */ = {
@@ -713,7 +713,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Foko.FokoRetail;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Foko-NHL";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -731,7 +731,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Foko.FokoRetail;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Foko-NHL";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
