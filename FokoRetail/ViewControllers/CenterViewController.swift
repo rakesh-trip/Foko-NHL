@@ -79,11 +79,14 @@ class CenterViewController: UIViewController {
     func getTeamsOperation() {
         let spinner = showLoader(view: self.view)
         let getTeamsOperation = GetTeamsOperation { [weak self] (allTeamsList, error) in
+            DispatchQueue.main.async {
+                spinner.dismissLoader()
+            }
+
             guard let allTeams = allTeamsList else { return }
             DispatchQueue.main.async {
                 if error == nil {
                     self?.listOfTeams = allTeams
-                    spinner.dismissLoader()
                 }
             }
         }
