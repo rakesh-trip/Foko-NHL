@@ -18,5 +18,9 @@ enum Timezones: String, Codable {
     case est = "EST"
     case mst = "MST"
     case pst = "PST"
+    case cdt = "CDT"
+    case edt = "EDT"
+    case mdt = "MDT"
+    case pdt = "PDT"
 }
 
